@@ -1,0 +1,50 @@
+.navbar-container {
+  display: flex;
+  justify-content: center;
+
+  height: 3.5rem;
+  background-color: goldenrod;
+  color: var(--white);
+  background: rgba(150, 58, 231, 0.9);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px); */
+}
+
+.navbar-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+  color: var(--white);
+  z-index: 200;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-family: "Poppins ExtraBold";
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.navbar-options {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.navbar-hamburger {
+  display: none;
+  color: var(--white);
+}
+
+.navbar-option-seperator {
+  margin: 0 3rem 0 0;
+  color: var(--white);
+}
+.selected-navbar-option {
+  color: #0d0d25;
+}

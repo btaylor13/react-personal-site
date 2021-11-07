@@ -1,7 +1,7 @@
 import React from "react";
-import "./Profile.css";
+import "./Header.css";
 
-export default function Profile() {
+export default function Header() {
   return (
     <div className="profile-container">
       <div className="profile__icons-container">
@@ -27,6 +27,12 @@ export default function Profile() {
         >
           Get Resume
         </a>
+      </div>
+      <div className="profile-arrow-down">
+        <img
+          className="profile-arrow-down-icon"
+          src="/../../assets/Home/images/down-arrow.png"
+        />
       </div>
     </div>
   );
