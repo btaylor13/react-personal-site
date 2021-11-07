@@ -1,22 +1,32 @@
 import React from "react";
+import "./Profile.css";
 
 export default function Profile() {
   return (
     <div className="profile-container">
-      <div className="profile-parent">
-        <div className="profile-details">
-          <div className="colz">
-            <a href="https://github.com/btaylor13">
-              <i className="fa fa-github"></i>
-            </a>
-            <a href="#">
-              <i className="fa fa-paper-plane"></i>
-            </a>
-            <a href="#">
-              <i className="fa fa-linkedin-in"></i>
-            </a>
-          </div>
-        </div>
+      <div className="profile__icons-container">
+        <div className="profile__icons"></div>
+      </div>
+      {/* Details */}
+
+      <h1 className="profile__details-name">
+        Hello, I'm <span className="highlighted-text">Bridgett</span>
+      </h1>
+
+      <div className="profile-details-info">
+        <h2 className="profile-role">Front End Developer</h2>
+        <p className="profile-role-tagline">Based in Spokane, WA</p>
+      </div>
+      {/* Buttons */}
+      <div className="profile-buttons">
+        <button className="btn primary-btn">Hire Me</button>
+        <a
+          href="https://docs.google.com/document/d/1OfKghLXsFd_o6gLCbaiDkqKJVYUuwGd7CqPFJcrkm_w/edit?usp=sharing"
+          target="_blank"
+          className="btn highlighted-btn"
+        >
+          Get Resume
+        </a>
       </div>
     </div>
   );
