@@ -61,6 +61,9 @@ body ::-webkit-scrollbar-thumb {
   color: var(--white);
   font-size: 12px;
   border: 2px solid white;
+  /* testing purposes */
+  color: aqua;
+  border: aqua solid 3px;
 }
 
 .highlighted-btn:hover {

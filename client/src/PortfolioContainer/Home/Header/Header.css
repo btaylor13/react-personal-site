@@ -42,7 +42,13 @@
     0 0 13px rgb(226, 255, 214) inset;
 }
 
-/* .profile-arrow-down {
-  background-image: url(../../assets/Home/images/down-arrow.png);
-  z-index: 20;
-} */
+@media only screen and (max-width: 29rem) {
+  .profile-buttons {
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+
+  .profile-buttons .highlighted-btn {
+    margin-top: 1rem;
+  }
+}

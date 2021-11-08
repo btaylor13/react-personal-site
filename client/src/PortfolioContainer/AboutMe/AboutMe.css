@@ -1,0 +1,98 @@
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0 0 0;
+}
+
+.about-me-parent {
+  max-width: 1000px;
+  width: 85%;
+}
+
+.about-me-card {
+  display: flex;
+  width: 100%;
+  box-shadow: 0 0px 20px -2px #1f2235;
+}
+
+.about-me-profile {
+  width: 50%;
+  background-image: url("../../assets/AboutMe/hobbies-img1.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-me-details {
+  width: 48%;
+  text-align: justify;
+  padding: 2rem;
+}
+
+.about-me-description {
+  font-size: 0.75rem;
+}
+
+.about-me-skills {
+  margin: 2rem 0;
+}
+
+.skills-heading {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0 0 0.4rem 0;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  margin: 0.2rem 0;
+  font-size: 0.75rem;
+}
+
+.skill-blob {
+  height: 0.8rem;
+  width: 0.8rem;
+  margin: 0 10px 0 0;
+  background-color: rgb(150, 58, 231);
+  border-radius: 50%;
+}
+
+.about-me-options .highlighted-btn {
+  margin: 0 0 0 1rem;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 57rem) {
+  .about-me-options {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me-options .highlighted-btn {
+    margin: 1rem 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 44rem) {
+  .about-me-parent {
+    width: 93%;
+  }
+}
+
+@media only screen and (max-width: 39rem) {
+  .about-me-profile {
+    display: none;
+  }
+  .about-me-details {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 29rem) {
+  .about-me-options .btn {
+    width: 100%;
+  }
+}

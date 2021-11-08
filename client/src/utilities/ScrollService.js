@@ -5,7 +5,7 @@ export default class ScrollService {
   static ScrollHandler = new ScrollService();
 
   static currentScreenBroadCaster = new Subject();
-  static currentScreenBroadFadeIn = new Subject();
+  static currentScreenFadeIn = new Subject();
 
   constructor() {
     //   Add scroll event to window
@@ -59,7 +59,7 @@ export default class ScrollService {
 
       if (fullyVisible || partiallyVisible) {
         if (partiallyVisible && !screen.alreadyRendered) {
-          ScrollService.currentScreenBroadFadeIn.next({
+          ScrollService.currentScreenFadeIn.next({
             fadeInScreen: screen.screen_name,
           });
           screen["alreadyRendered"] = true;

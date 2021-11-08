@@ -19,7 +19,7 @@ export default function Header() {
       </div>
       {/* Buttons */}
       <div className="profile-buttons">
-        <button className="btn primary-btn">Hire Me</button>
+        <button className="btn primary-btn">Say Hello</button>
         <a
           href="https://docs.google.com/document/d/1OfKghLXsFd_o6gLCbaiDkqKJVYUuwGd7CqPFJcrkm_w/edit?usp=sharing"
           target="_blank"
@@ -27,12 +27,6 @@ export default function Header() {
         >
           Get Resume
         </a>
-      </div>
-      <div className="profile-arrow-down">
-        <img
-          className="profile-arrow-down-icon"
-          src="/../../assets/Home/images/down-arrow.png"
-        />
       </div>
     </div>
   );
