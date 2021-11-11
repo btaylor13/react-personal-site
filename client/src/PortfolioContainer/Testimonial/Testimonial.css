@@ -1,0 +1,87 @@
+.testimonial-section {
+  padding: 80px 0 80px;
+  background-color: #070714;
+  position: relative;
+  z-index: -1;
+}
+
+.testimonial-section .testimonial-item {
+  background-color: white;
+  padding: 30px;
+  border-radius: 50px 50px 50px 0;
+}
+
+.testimonial-section .testimonial-item p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0 0 10px;
+  font-style: italic;
+}
+
+.testimonial-section .testimonial-item p .fa-quote-left {
+  margin-right: 5px;
+  color: #9639e7;
+}
+.testimonial-section .testimonial-item p .fa-quote-right {
+  margin-left: 5px;
+  color: #9639e7;
+}
+
+.owl-nav button {
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.owl-nav button.owl-prev {
+  left: 0;
+}
+.owl-nav button.owl-next {
+  right: 0;
+}
+
+.owl-nav button.owl-next,
+.owl-nav button.owl-prev {
+  padding: 3rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+.owl-nav button.owl-next span,
+.owl-nav button.owl-prev span {
+  color: #9639e7;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-dots button.owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #ccc;
+  margin: 0 3px;
+}
+
+.owl-dots button.owl-dot.active {
+  background-color: #9639e7;
+}
+
+.owl-dots button.owl-dot:focus {
+  outline: none;
+}
+
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.38) !important;
+  background-color: #9639e7;
+}

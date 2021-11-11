@@ -14,8 +14,8 @@
 }
 
 .screen-subheading {
-  letter-spacing: 3px;
-  margin: 0.4rem 0 0.6rem 0;
+  letter-spacing: 1px;
+  margin: 0.3rem 0.5rem 0.3rem 0.5rem;
   font-size: 0.8rem;
   color: #0d0d25;
 }
