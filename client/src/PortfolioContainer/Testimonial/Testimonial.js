@@ -145,12 +145,11 @@ export default function Testimonial(props) {
                   <div className="testimonial-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Pharetra massa massa ultricies mi quis hendrerit.
-                      Sit amet purus gravida quis blandit turpis cursus in. Duis
-                      at consectetur lorem donec massa sapien faucibus. Netus et
-                      malesuada fames ac turpis egestas sed tempus urna.{" "}
+                      Mrs. Taylor was a great team player on the 5th grade team.
+                      She was always filled with ideas during our lesson
+                      planning and PLCs. She was anxious to help and create
+                      engaging lessons. Her excitement was contagious and we
+                      would all join in with her enthusiasm.
                       <i className="fa fa-quote-right" />{" "}
                     </p>
                   </div>

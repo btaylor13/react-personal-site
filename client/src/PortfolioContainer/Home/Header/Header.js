@@ -1,11 +1,23 @@
 import React from "react";
+import ScrollService from "../../../utilities/ScrollService";
 import "./Header.css";
 
 export default function Header() {
   return (
     <div className="profile-container">
       <div className="profile__icons-container">
-        <div className="profile__icons"></div>
+        <div className="profile__icons">
+          <a href="https://github.com/btaylor13">
+            <i class="fa fa-github header-icon"></i>
+          </a>
+
+          <a href="mailto: btaylor7224@gmail.com">
+            <i class="fa fa-envelope header-icon"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/bridgett-taylor-dev">
+            <i class="fa fa-linkedin header-icon"></i>
+          </a>
+        </div>
       </div>
       {/* Details */}
 
@@ -19,7 +31,12 @@ export default function Header() {
       </div>
       {/* Buttons */}
       <div className="profile-buttons">
-        <button className="btn primary-btn">Say Hello</button>
+        <button
+          className="btn primary-btn"
+          onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+        >
+          Say Hello
+        </button>
         <a
           href="https://docs.google.com/document/d/1OfKghLXsFd_o6gLCbaiDkqKJVYUuwGd7CqPFJcrkm_w/edit?usp=sharing"
           target="_blank"

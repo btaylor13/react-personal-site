@@ -73,6 +73,9 @@ const Resume = (props) => {
       description:
         "A personal portfolio website to showcase my details and projects",
       subHeading: "Technologies Used: React JS",
+      codeLink: (
+        <a href="https://github.com/btaylor13/react-personal-site">View Code</a>
+      ),
     },
     {
       title: "Space Tourism Website",
@@ -80,6 +83,7 @@ const Resume = (props) => {
       description:
         "A multi-page website informational site for space tourism built from a Figma design file",
       subHeading: "Technologies Used: HTML, CSS, JavaScript, Figma",
+      codeLink: "https://github.com/btaylor13/space-tourism-FEM",
     },
     {
       title: "Pacific Northwest Adventures Website",
@@ -87,6 +91,7 @@ const Resume = (props) => {
       description:
         "A multi-page website advertising outdoor adventures in the PNW region",
       subHeading: "Technologies Used: HTML, CSS, Bootstrap",
+      codeLink: "https://github.com/btaylor13/pnw-adventures",
     },
   ];
 
@@ -190,6 +195,7 @@ const Resume = (props) => {
           description={projectsDetails.description}
           fromDate={projectsDetails.duration.fromDate}
           toDate={projectsDetails.duration.toDate}
+          codeLink={projectsDetails.codeLink}
         />
       ))}
     </div>,

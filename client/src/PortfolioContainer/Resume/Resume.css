@@ -163,6 +163,12 @@
   font-size: 0.9rem;
 }
 
+.about-me-options .highlighted-btn {
+  color: #9639e7;
+  border: 3px solid #9639e7;
+  font-size: 1rem;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1110px) {
