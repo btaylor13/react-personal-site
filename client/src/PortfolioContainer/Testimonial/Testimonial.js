@@ -108,8 +108,8 @@ export default function Testimonial(props) {
                       aliqua. Pharetra massa massa ultricies mi quis hendrerit.
                       Sit amet purus gravida quis blandit turpis cursus in. Duis
                       at consectetur lorem donec massa sapien faucibus. Netus et
-                      malesuada fames ac turpis egestas sed tempus urna.{" "}
-                      <i className="fa fa-quote-right" />{" "}
+                      malesuada fames ac turpis egestas sed tempus urna.
+                      <i className="fa fa-quote-right" />
                     </p>
                   </div>
                   <div className="coworker-info">
@@ -124,12 +124,19 @@ export default function Testimonial(props) {
                   <div className="testimonial-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Pharetra massa massa ultricies mi quis hendrerit.
-                      Sit amet purus gravida quis blandit turpis cursus in. Duis
-                      at consectetur lorem donec massa sapien faucibus. Netus et
-                      malesuada fames ac turpis egestas sed tempus urna.{" "}
+                      Bridgett and I taught on the fifth-grade team together at
+                      Ortiz Elementary School. Working with her, I witnessed
+                      time and time again her creativity, confidence, and
+                      cooperation. She was constantly coming up with great
+                      ideas. She had the confidence to share her suggestions
+                      with the group, and the humility to receive critique
+                      without taking offense. She was always a team player,
+                      committing whole-heartedly to whatever the group decided
+                      without demanding her own way. She would ask for help when
+                      she needed it, but far more often she was the one offering
+                      help to someone else. She will be an asset and a blessing
+                      to anyone she works with, as she was to me and the rest of
+                      our team.
                       <i className="fa fa-quote-right" />{" "}
                     </p>
                   </div>
