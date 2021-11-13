@@ -2,8 +2,7 @@ node_modules
 .env
 route
 server.js
-package-lock.json
-package.json
+
 
 # had issues creating the server - I will deploy without the contact form first and then come back and work on the server issue for the form
 

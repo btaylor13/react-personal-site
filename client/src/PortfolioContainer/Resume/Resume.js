@@ -77,12 +77,21 @@ const Resume = (props) => {
         "A personal portfolio website to showcase resume and skills and to later use to host portfolio projects",
       subHeading: "Technologies Used: React JS",
       codeLink: (
-        <a
-          className="code-link"
-          href="https://github.com/btaylor13/react-personal-site"
-        >
-          View Code
-        </a>
+        <div className="project-links">
+          <a
+            className="code-link"
+            href="https://github.com/btaylor13/react-personal-site"
+          >
+            View Code
+          </a>
+
+          <a
+            className="code-link site-link"
+            href="https://bridgett-taylor.netlify.app/"
+          >
+            View Site
+          </a>
+        </div>
       ),
     },
     {
@@ -92,12 +101,20 @@ const Resume = (props) => {
         "A multi-page informational site for space tourism built from a Figma design file",
       subHeading: "Technologies Used: HTML, CSS, JavaScript, Figma",
       codeLink: (
-        <a
-          className="code-link"
-          href="https://github.com/btaylor13/space-tourism-FEM"
-        >
-          View Code
-        </a>
+        <div className="project-links">
+          <a
+            className="code-link"
+            href="https://github.com/btaylor13/space-tourism-FEM"
+          >
+            View Code
+          </a>
+          <a
+            className="code-link site-link"
+            href="https://btaylor13.github.io/space-tourism-FEM/"
+          >
+            View Site
+          </a>
+        </div>
       ),
     },
     {
@@ -107,12 +124,20 @@ const Resume = (props) => {
         "A multi-page website advertising outdoor adventures in the PNW region",
       subHeading: "Technologies Used: HTML, CSS, Bootstrap",
       codeLink: (
-        <a
-          className="code-link"
-          href="https://github.com/btaylor13/space-tourism-FEM"
-        >
-          Replace with correct link
-        </a>
+        <div className="project-links">
+          <a
+            className="code-link"
+            href="https://github.com/btaylor13/pnw-adventures-update"
+          >
+            View Code
+          </a>
+          <a
+            className="code-link site-link"
+            href="https://btaylor13.github.io/pnw-adventures-update/"
+          >
+            View Site
+          </a>
+        </div>
       ),
     },
   ];
@@ -225,11 +250,11 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
         heading="Puzzles and Games"
-        description="My love of coding extends from my lifelong love of puzzles and mystery games. I especially like the mystery subscription boxes that send realistic-looking clues like ones you might find in an escape room to solve mysteries. There's something so satisfying about finding and musing over a problem until it's solved."
+        description="My love of coding stems from my lifelong love of puzzles and mystery games. I especially like the mystery subscription boxes that send realistic-looking clues like ones you might find in an escape room to solve mysteries. There's something so satisfying about finding and musing over a problem until it's solved."
       />
       <ResumeHeading
-        heading="Neuroscience"
-        description="I enjoy learning more about how the brain works and what we can do to live more satisfying and productive lives in all areas of life. Much of my interest developed during my time teaching math and reading. I would often run experiments using different teaching methods and environments on different classes to test out ideas about how the brain learns best. Now my interest has shifted to more personal experiments with measuring how different types of exercise, nutrition habits, and learning schedules affect my overall health and well-being."
+        heading="Learning"
+        description="I enjoy learning new things. Whether it's new skills, hobbies, or just interesting facts about how the world works, I get thrills from it all. Last year, I learned how to build very basic bookcases because I needed some for my former classroom. I made three bookcases, and I set them up in the order that I made them. Seeing the progress I made visually from left to right made me realize why I enjoy learning so much. There's no limit to how much we can grow and learn. There's always something we can improve and work towards in every aspect of life, and that's exciting. I also spend a lot of free time reading, listening to TED Talks, and watching all the National Geographic shows on Disney Plus."
       />
     </div>,
   ];

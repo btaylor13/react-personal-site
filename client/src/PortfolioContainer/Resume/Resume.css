@@ -181,6 +181,10 @@
   text-decoration: underline;
 }
 
+.site-link {
+  margin-left: 0.5rem;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1110px) {
