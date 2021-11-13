@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/btaylor13/react-personal-site/client/static/css/main.280121c5.chunk.css",
+    "main.js": "/btaylor13/react-personal-site/client/static/js/main.a0291f70.chunk.js",
+    "main.js.map": "/btaylor13/react-personal-site/client/static/js/main.a0291f70.chunk.js.map",
+    "runtime-main.js": "/btaylor13/react-personal-site/client/static/js/runtime-main.5498a217.js",
+    "runtime-main.js.map": "/btaylor13/react-personal-site/client/static/js/runtime-main.5498a217.js.map",
+    "static/css/2.a44c59e0.chunk.css": "/btaylor13/react-personal-site/client/static/css/2.a44c59e0.chunk.css",
+    "static/js/2.6b680cf6.chunk.js": "/btaylor13/react-personal-site/client/static/js/2.6b680cf6.chunk.js",
+    "static/js/2.6b680cf6.chunk.js.map": "/btaylor13/react-personal-site/client/static/js/2.6b680cf6.chunk.js.map",
+    "static/js/3.fbf93e62.chunk.js": "/btaylor13/react-personal-site/client/static/js/3.fbf93e62.chunk.js",
+    "static/js/3.fbf93e62.chunk.js.map": "/btaylor13/react-personal-site/client/static/js/3.fbf93e62.chunk.js.map",
+    "index.html": "/btaylor13/react-personal-site/client/index.html",
+    "static/css/2.a44c59e0.chunk.css.map": "/btaylor13/react-personal-site/client/static/css/2.a44c59e0.chunk.css.map",
+    "static/css/main.280121c5.chunk.css.map": "/btaylor13/react-personal-site/client/static/css/main.280121c5.chunk.css.map",
+    "static/js/2.6b680cf6.chunk.js.LICENSE.txt": "/btaylor13/react-personal-site/client/static/js/2.6b680cf6.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/btaylor13/react-personal-site/client/static/media/dark-code.5b7788d7.jpg",
+    "static/media/education.svg": "/btaylor13/react-personal-site/client/static/media/education.10cfa28a.svg",
+    "static/media/AboutMe.css": "/btaylor13/react-personal-site/client/static/media/hobbies-img1.4d0e9009.JPG",
+    "static/media/interests.svg": "/btaylor13/react-personal-site/client/static/media/interests.809890a3.svg",
+    "static/media/programming-skills.svg": "/btaylor13/react-personal-site/client/static/media/programming-skills.d19983a9.svg",
+    "static/media/projects.svg": "/btaylor13/react-personal-site/client/static/media/projects.2b352a52.svg",
+    "static/media/work-history.svg": "/btaylor13/react-personal-site/client/static/media/work-history.a566475d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5498a217.js",
+    "static/css/2.a44c59e0.chunk.css",
+    "static/js/2.6b680cf6.chunk.js",
+    "static/css/main.280121c5.chunk.css",
+    "static/js/main.a0291f70.chunk.js"
+  ]
+}

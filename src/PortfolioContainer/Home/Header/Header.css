@@ -1,0 +1,77 @@
+.profile-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../../assets/Header/images/dark-code.jpg);
+  color: white;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 9rem 0;
+}
+
+.header-icon {
+  font-size: 1.3rem;
+  padding: 1rem;
+
+  border: 3px solid #a152e9;
+  border-radius: 50%;
+  margin: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.header-icon:hover {
+  box-shadow: 0 0 3px #a097ef, 0 0 7px #c097ef, 0 0 7px rgb(247, 214, 255) inset;
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+.profile-buttons {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.profile__details-name {
+  font-weight: bold;
+  font-size: 3.3rem;
+}
+
+.profile-role {
+  font-weight: 300;
+}
+.profile-role-tagline {
+  font-weight: 400;
+}
+
+.primary-btn {
+  border: none;
+  background-color: #7fb56e;
+  box-shadow: 0 0 3px #a6ef97;
+  font-size: 1rem;
+}
+
+.primary-btn:hover {
+  box-shadow: 0 0 7px #c2ef97, 0 0 13px #c2ef97,
+    0 0 13px rgb(226, 255, 214) inset;
+  transition: all 0.3s ease;
+}
+
+.profile-buttons .highlighted-btn {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 29rem) {
+  .profile-buttons {
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+
+  .profile-buttons .highlighted-btn {
+    margin-top: 1rem;
+  }
+}

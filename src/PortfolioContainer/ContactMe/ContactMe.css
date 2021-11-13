@@ -1,0 +1,124 @@
+.main-container {
+  padding-top: 6rem;
+  border-radius: 10px;
+}
+.contact-form {
+  background-color: #9639e7;
+  color: white;
+  max-width: 700px;
+  padding: 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem;
+
+  margin-bottom: 2rem;
+}
+
+.contact-form h2 {
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.form-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.form-description {
+  max-width: 450px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  width: 90%;
+  margin: 0 auto;
+
+  justify-content: center;
+}
+
+.f-icon {
+  font-size: 1.3rem;
+  padding: 1rem;
+  border: 3px solid #070714;
+  border-radius: 50%;
+  margin: 1rem;
+  color: #070714;
+  cursor: pointer;
+}
+
+.f-icon:hover {
+  border: 3px solid rgba(7, 7, 20, 0.6);
+  color: rgba(14, 14, 34, 0.6);
+  transition: all 0.5s;
+}
+
+form p {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #070714;
+  letter-spacing: 0.2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.email-link {
+  text-decoration: underline;
+  color: #070714;
+}
+
+.contact-description {
+  padding-top: 1rem;
+}
+
+form input,
+form textarea {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: solid 2px #070714;
+  border-radius: 7px;
+  padding: 0.3rem;
+}
+
+.send-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.send-btn button {
+  background-color: #070714;
+  color: white;
+  padding: 1em 1.3em;
+  border: none;
+  border-radius: 7px;
+}
+
+.send-btn button:hover {
+  background-color: rgba(7, 7, 20, 0.7);
+  transition: all 0.5s;
+}
+
+textarea:focus,
+input:focus {
+  border: 2px solid rgba(30, 85, 350, 0.47);
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 34rem) {
+  .contact-form {
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+}
