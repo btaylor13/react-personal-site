@@ -38,6 +38,9 @@ const Resume = (props) => {
         <div className="resume-heading-description">
           <span>{props.description ? props.description : ""}</span>
         </div>
+        <div className="resume-code-btn">
+          <span>{props.codeLink ? props.codeLink : ""}</span>
+        </div>
       </div>
     );
   };
@@ -71,19 +74,31 @@ const Resume = (props) => {
       title: "React Personal Website",
       duration: { fromDate: "Nov. 2021", toDate: "Nov. 2021" },
       description:
-        "A personal portfolio website to showcase my details and projects",
+        "A personal portfolio website to showcase resume and skills and to later use to host portfolio projects",
       subHeading: "Technologies Used: React JS",
       codeLink: (
-        <a href="https://github.com/btaylor13/react-personal-site">View Code</a>
+        <a
+          className="code-link"
+          href="https://github.com/btaylor13/react-personal-site"
+        >
+          View Code
+        </a>
       ),
     },
     {
       title: "Space Tourism Website",
       duration: { fromDate: "Oct. 2021", toDate: "Nov.2021" },
       description:
-        "A multi-page website informational site for space tourism built from a Figma design file",
+        "A multi-page informational site for space tourism built from a Figma design file",
       subHeading: "Technologies Used: HTML, CSS, JavaScript, Figma",
-      codeLink: "https://github.com/btaylor13/space-tourism-FEM",
+      codeLink: (
+        <a
+          className="code-link"
+          href="https://github.com/btaylor13/space-tourism-FEM"
+        >
+          View Code
+        </a>
+      ),
     },
     {
       title: "Pacific Northwest Adventures Website",
@@ -91,7 +106,14 @@ const Resume = (props) => {
       description:
         "A multi-page website advertising outdoor adventures in the PNW region",
       subHeading: "Technologies Used: HTML, CSS, Bootstrap",
-      codeLink: "https://github.com/btaylor13/pnw-adventures",
+      codeLink: (
+        <a
+          className="code-link"
+          href="https://github.com/btaylor13/space-tourism-FEM"
+        >
+          Replace with correct link
+        </a>
+      ),
     },
   ];
 

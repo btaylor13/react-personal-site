@@ -69,25 +69,30 @@ export default function ContactMe(props) {
             <a href="mailto: btaylor7224@gmail.com">
               <i className="fa fa-envelope f-icon"></i>
             </a>
-            <a href="https://github.com/btaylor13">
+            <a href="https://github.com/btaylor13" target="_blank">
               <i className="fa fa-github f-icon"></i>
             </a>
             <a href="https://www.linkedin.com/in/bridgett-taylor-dev">
-              <i className="fa fa-linkedin f-icon"></i>
+              <i className="fa fa-linkedin f-icon" target="_blank"></i>
             </a>
           </div>
         </div>
 
         <div className="form-description">
-          <h4>Send me an email here.</h4>
-          <p>
+          <h4>
+            Send me an email at{" "}
+            <a className="email-link" href="mailto:btaylor7224@gmail.com">
+              btaylor7224@gmail.com
+            </a>{" "}
+          </h4>
+          <p className="contact-description">
             {" "}
             Whether you're looking to chat about employment opportunities or
             just to connect and say hello, I look forward to hearing from you!
           </p>
         </div>
 
-        <form onSubmit={submitForm}>
+        {/* <form onSubmit={submitForm}>
           <p>{banner}</p>
           <label htmlFor="name">Your Name</label>
           <input type="text" onChange={handleName} value={name} />
@@ -103,7 +108,7 @@ export default function ContactMe(props) {
               Send Message <i className="fa fa-paper-plane" />
             </button>
           </div>
-        </form>
+        </form> */}
       </div>
       <Footer />
     </div>

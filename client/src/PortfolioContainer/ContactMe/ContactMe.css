@@ -73,6 +73,15 @@ form p {
   font-weight: 500;
 }
 
+.email-link {
+  text-decoration: underline;
+  color: #070714;
+}
+
+.contact-description {
+  padding-top: 1rem;
+}
+
 form input,
 form textarea {
   margin-bottom: 1rem;

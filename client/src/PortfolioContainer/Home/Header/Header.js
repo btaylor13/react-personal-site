@@ -7,14 +7,17 @@ export default function Header() {
     <div className="profile-container">
       <div className="profile__icons-container">
         <div className="profile__icons">
-          <a href="https://github.com/btaylor13">
+          <a href="https://github.com/btaylor13" target="_blank">
             <i class="fa fa-github header-icon"></i>
           </a>
 
           <a href="mailto: btaylor7224@gmail.com">
             <i class="fa fa-envelope header-icon"></i>
           </a>
-          <a href="https://www.linkedin.com/in/bridgett-taylor-dev">
+          <a
+            href="https://www.linkedin.com/in/bridgett-taylor-dev"
+            target="_blank"
+          >
             <i class="fa fa-linkedin header-icon"></i>
           </a>
         </div>

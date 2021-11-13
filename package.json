@@ -1,5 +1,6 @@
 {
   "name": "react-portfolio-site",
+  "proxy": "http://localhost:5131",
   "version": "1.0.0",
   "description": "Personal site with about me, resume section, and contact me form developed using React",
   "main": "index.js",

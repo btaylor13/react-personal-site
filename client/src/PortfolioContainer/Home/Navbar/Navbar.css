@@ -1,9 +1,7 @@
 .navbar-container {
   display: flex;
   justify-content: center;
-
   height: 3.5rem;
-
   color: var(--white);
   background: rgba(150, 58, 231, 0.9);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -16,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  width: 70%;
+  width: 90%;
   color: var(--white);
 }
 
@@ -44,20 +42,14 @@
 }
 
 .navbar-option-separator {
-  margin: 0 2rem 0 0;
+  margin: 0 1.8rem 0 0;
   color: var(--white);
 }
 .selected-navbar-option {
   color: #0d0d25;
 }
 
-@media only screen and (max-width: 70rem) {
-  .navbar-parent {
-    width: 80%;
-  }
-}
-
-@media only screen and (max-width: 35rem) {
+@media only screen and (max-width: 44rem) {
   .navbar-hamburger {
     display: block;
   }

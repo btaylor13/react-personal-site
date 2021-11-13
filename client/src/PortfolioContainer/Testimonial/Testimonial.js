@@ -36,7 +36,7 @@ export default function Testimonial(props) {
         items: 1,
       },
       1000: {
-        items: 3,
+        items: 1,
       },
     },
   };
@@ -61,12 +61,41 @@ export default function Testimonial(props) {
                   <div className="testimonial-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Pharetra massa massa ultricies mi quis hendrerit.
-                      Sit amet purus gravida quis blandit turpis cursus in. Duis
-                      at consectetur lorem donec massa sapien faucibus. Netus et
-                      malesuada fames ac turpis egestas sed tempus urna.{" "}
+                      Bridgett Taylor and I shared the unique and unforgettable
+                      experience of being first-year co-teachers in the COVID
+                      pandemic. As you can imagine, navigating the new world of
+                      professionalism and a worldwide pandemic brought a lot of
+                      stress, panic, and challenges to both Bridgett and me.
+                      While there were moments of frustration and hardship
+                      through the year, there is no better teammate than I could
+                      have asked for in this profession. From the start,
+                      Bridgett always had my back. She was a team player, eager
+                      to work together and tackle the hurdles of new teacher
+                      orientation, classroom management, and state testing.
+                      Throughout the year, I witnessed Bridgett put in countless
+                      hours to ensure that she taught and gave the students the
+                      best instruction possible. But, in the same way, she did
+                      that for the kids; she did it for her team. At team
+                      meetings, Bridgett would be the person to come up with
+                      elaborate and innovative ideas to engage the students in
+                      the math she taught. My favorite was her room
+                      transformation. To help the students with orders of
+                      operation, Bridgett transformed her classroom into an ER
+                      hospital. The students were wearing surgical gear, and the
+                      classroom resembled an ER. She even sprayed a ton of
+                      disinfectant Lysol so that it smelled like a medical
+                      building! The kids were ENGAGED and learning. This is how
+                      Bridgett's brilliant brain works. Like in any job and with
+                      any coworker, there were moments that Bridgett and I had
+                      to share in straight talk, especially when we had to learn
+                      to navigate the world of zoom teaching. Without a doubt,
+                      any conflict made us both uncomfortable, but even in
+                      situations of confrontation, Bridgett was team-centered
+                      and synergistic. Bridgett is a great teammate to have. I
+                      consider myself lucky to have had her as my partner. She
+                      is a passionate and adaptable coworker who constantly
+                      learns new things and encourages the rest of her team to
+                      do the same.
                       <i className="fa fa-quote-right" />{" "}
                     </p>
                   </div>
@@ -77,7 +106,7 @@ export default function Testimonial(props) {
                 </div>
               </div>
 
-              <div className="col-lg-12">
+              {/* <div className="col-lg-12">
                 <div className="testimonial-item">
                   <div className="testimonial-comment">
                     <p>
@@ -96,28 +125,8 @@ export default function Testimonial(props) {
                     <p>Fill in role here</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="col-lg-12">
-                <div className="testimonial-item">
-                  <div className="testimonial-comment">
-                    <p>
-                      <i className="fa fa-quote-left" />
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Pharetra massa massa ultricies mi quis hendrerit.
-                      Sit amet purus gravida quis blandit turpis cursus in. Duis
-                      at consectetur lorem donec massa sapien faucibus. Netus et
-                      malesuada fames ac turpis egestas sed tempus urna.
-                      <i className="fa fa-quote-right" />
-                    </p>
-                  </div>
-                  <div className="coworker-info">
-                    <h5>Faith Nunn - Abilene, TX</h5>
-                    <p>6th Grade Math Teaching Partner</p>
-                  </div>
-                </div>
-              </div>
               {/* Testimonial 4 */}
               <div className="col-lg-12">
                 <div className="testimonial-item">
@@ -166,8 +175,8 @@ export default function Testimonial(props) {
                   </div>
                 </div>
               </div>
-              {/* Testimonial 6 */}
-              <div className="col-lg-12">
+
+              {/* <div className="col-lg-12">
                 <div className="testimonial-item">
                   <div className="testimonial-comment">
                     <p>
@@ -186,7 +195,7 @@ export default function Testimonial(props) {
                     <p>Focusmate Coworking Partner</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </OwlCarousel>
           </div>
         </div>
