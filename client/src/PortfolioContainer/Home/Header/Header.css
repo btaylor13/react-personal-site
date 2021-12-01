@@ -46,6 +46,8 @@
 }
 .profile-role-tagline {
   font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 .primary-btn {

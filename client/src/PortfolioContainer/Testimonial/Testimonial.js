@@ -21,13 +21,8 @@ export default function Testimonial(props) {
     loop: true,
     margin: 0,
     nav: true,
-    animateIn: "bounceInRight",
-    animateOut: "bounceOutRight",
     dots: true,
     dotsEach: true,
-    autoplay: true,
-    autoplayHoverPause: true,
-    smartSpeed: 2000,
     responsive: {
       0: {
         items: 1,
@@ -56,7 +51,7 @@ export default function Testimonial(props) {
               id="testimonial-carousel"
               {...options}
             >
-              <div className="col-lg-12">
+              <div className="col-12">
                 <div className="testimonial-item">
                   <div className="testimonial-comment">
                     <p>
@@ -70,32 +65,24 @@ export default function Testimonial(props) {
                       through the year, there is no better teammate than I could
                       have asked for in this profession. From the start,
                       Bridgett always had my back. She was a team player, eager
-                      to work together and tackle the hurdles of new teacher
-                      orientation, classroom management, and state testing.
-                      Throughout the year, I witnessed Bridgett put in countless
-                      hours to ensure that she taught and gave the students the
-                      best instruction possible. But, in the same way, she did
-                      that for the kids; she did it for her team. At team
-                      meetings, Bridgett would be the person to come up with
-                      elaborate and innovative ideas to engage the students in
-                      the math she taught. My favorite was her room
+                      to work together and tackle the hurdles of the teaching
+                      profession. Throughout the year, I witnessed Bridgett put
+                      in countless hours to ensure that she taught and gave the
+                      students the best instruction possible. But, in the same
+                      way, she did that for the kids; she did it for her team.
+                      At team meetings, Bridgett would be the person to come up
+                      with elaborate and innovative ideas to engage the students
+                      in the math she taught. My favorite was her room
                       transformation. To help the students with orders of
                       operation, Bridgett transformed her classroom into an ER
                       hospital. The students were wearing surgical gear, and the
                       classroom resembled an ER. She even sprayed a ton of
                       disinfectant Lysol so that it smelled like a medical
-                      building! The kids were ENGAGED and learning. This is how
-                      Bridgett's brilliant brain works. Like in any job and with
-                      any coworker, there were moments that Bridgett and I had
-                      to share in straight talk, especially when we had to learn
-                      to navigate the world of zoom teaching. Without a doubt,
-                      any conflict made us both uncomfortable, but even in
-                      situations of confrontation, Bridgett was team-centered
-                      and synergistic. Bridgett is a great teammate to have. I
-                      consider myself lucky to have had her as my partner. She
-                      is a passionate and adaptable coworker who constantly
-                      learns new things and encourages the rest of her team to
-                      do the same.
+                      building! The kids were ENGAGED and learning. I consider
+                      myself lucky to have had her as my partner. She is a
+                      passionate and adaptable coworker who constantly learns
+                      new things and encourages the rest of her team to do the
+                      same.
                       <i className="fa fa-quote-right" />{" "}
                     </p>
                   </div>
@@ -105,30 +92,8 @@ export default function Testimonial(props) {
                   </div>
                 </div>
               </div>
-
-              {/* <div className="col-lg-12">
-                <div className="testimonial-item">
-                  <div className="testimonial-comment">
-                    <p>
-                      <i className="fa fa-quote-left" />
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Pharetra massa massa ultricies mi quis hendrerit.
-                      Sit amet purus gravida quis blandit turpis cursus in. Duis
-                      at consectetur lorem donec massa sapien faucibus. Netus et
-                      malesuada fames ac turpis egestas sed tempus urna.{" "}
-                      <i className="fa fa-quote-right" />{" "}
-                    </p>
-                  </div>
-                  <div className="coworker-info">
-                    <h5>Tim Phamduy - Abilene, TX</h5>
-                    <p>Fill in role here</p>
-                  </div>
-                </div>
-              </div> */}
-
-              {/* Testimonial 4 */}
-              <div className="col-lg-12">
+              {/* testimonial item */}
+              <div className="col-12">
                 <div className="testimonial-item">
                   <div className="testimonial-comment">
                     <p>
@@ -155,8 +120,8 @@ export default function Testimonial(props) {
                   </div>
                 </div>
               </div>
-              {/* Testimonial 5 */}
-              <div className="col-lg-12">
+              {/* testimonial item */}
+              <div className="col-12">
                 <div className="testimonial-item">
                   <div className="testimonial-comment">
                     <p>
@@ -176,18 +141,22 @@ export default function Testimonial(props) {
                 </div>
               </div>
 
-              {/* <div className="col-lg-12">
+              <div className="col-12">
                 <div className="testimonial-item">
                   <div className="testimonial-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Pharetra massa massa ultricies mi quis hendrerit.
-                      Sit amet purus gravida quis blandit turpis cursus in. Duis
-                      at consectetur lorem donec massa sapien faucibus. Netus et
-                      malesuada fames ac turpis egestas sed tempus urna.{" "}
-                      <i className="fa fa-quote-right" />{" "}
+                      I met Bridgett on Focusmate- a productivity site offering
+                      accountability to individuals looking to progress in their
+                      goals. We have since worked together over 200 hrs.
+                      Bridgett is as driven and as focused as can be. She is
+                      diligent and determined to accomplish her tasks at hand.
+                      Perhaps one of the best parts of working with her is the
+                      push and motivation I've gained to successfully accomplish
+                      my own goals, for which I'm eternally grateful. I am very
+                      confident Bridgett's determination, work ethic and
+                      motivational nature will be an asset to any environment.
+                      <i className="fa fa-quote-right" />
                     </p>
                   </div>
                   <div className="coworker-info">
@@ -195,7 +164,7 @@ export default function Testimonial(props) {
                     <p>Focusmate Coworking Partner</p>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </OwlCarousel>
           </div>
         </div>
